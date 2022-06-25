@@ -18,13 +18,43 @@ const getPosts = async () => {
 
 getPosts();
 
+
+
+
+
+
+
 const showPost = (AllData) => {
   console.log(AllData);
-  AllData=AllData.splice(0,15)
-  let container = document.querySelector(".post-container");
+  // AllData=AllData.splice(0,15)
+let Container=document.querySelector(".post-container")
+  
+  let allPost=document.createElement("div")
 
-let allPost=document.createElement("div")
+const macyInstance = Macy({
+	container: allPost,
+  margin: {
+		x: 15,
+		y: 15,
+	},
+  columns:6
+})
+
+const fixStartUpBug = () => {
+	macyInstance.runOnImageLoad(function () {
+		macyInstance.recalculate(true, true)
+		var evt = document.createEvent('UIEvents')
+		evt.initUIEvent('resize', true, false, window, 0)
+		window.dispatchEvent(evt)
+	}, true)
+}
+
+fixStartUpBug()
+
 allPost.classList.add("all-post-container")
+
+
+
   AllData.map((post) => {
     let div = document.createElement("div");
     div.classList.add("eachPostDiv")
@@ -83,6 +113,6 @@ allPost.classList.add("all-post-container")
     videoOrImage.append(content)
     div.append(videoOrImage,postInfo)
     allPost.append(div)
-    container.append(allPost)
+    Container.append(allPost)
   });
 };

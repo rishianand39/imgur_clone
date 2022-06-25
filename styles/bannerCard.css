@@ -1,14 +1,15 @@
 
       .banner {
         background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
-        min-height: 40vh;
+        min-height: 30vh;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         padding: 50px 80px;
-        border: 1px solid rebeccapurple;
+        /* border: 1px solid rebeccapurple; */
       }
       .banner .title {
+        margin-top: 40px;
         color: #aed8ea;
         /* border: 1px solid red; */
         font-size: 1.5rem;

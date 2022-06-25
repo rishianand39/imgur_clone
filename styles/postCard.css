@@ -1,16 +1,17 @@
-
+.post-container{
+  background-color: #2e3035;
+  padding-top:20px;
+}
 
 .all-post-container{
   width: 80%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-   grid-gap: 15px;
+
 
 }
 .eachPostDiv{
 /* border: 1px solid royalblue; */
-width:243px;
+/* width:100px; */
 height: fit-content;
 margin-bottom: 15px;
 
@@ -34,7 +35,7 @@ margin-bottom: 15px;
 }
 
 .info{
-background-color: #474a51;
+background-color: #53575e;
 color: #fff;
 margin: 0;
 padding: 0;
