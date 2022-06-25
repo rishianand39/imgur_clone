@@ -1,0 +1,78 @@
+
+      .banner {
+        background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+        min-height: 40vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px 80px;
+        border: 1px solid rebeccapurple;
+      }
+      .banner .title {
+        color: #aed8ea;
+        /* border: 1px solid red; */
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+      }
+      .tag {
+        /* border: 1px solid red; */
+        padding: 10px;
+        color: #bcbfcd;
+        margin-top: 20px;
+      }
+      .tag-name-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .tag-name-container > div {
+        cursor: pointer;
+      }
+      #tag-card{
+       display: flex;
+       flex-wrap: wrap;
+       overflow: hidden;
+       /* border: 1px solid red; */
+        
+      }
+      .tagDiv:hover, .firstTag:hover{
+        transform: translateY(-2px);
+       transition: all linear 0.2s;
+       cursor: pointer;
+      }
+      .firstTag{
+        width: 200px;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        margin: 10px;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      .topdiv{
+        flex: 1;
+        overflow: hidden;
+        
+      }
+      .topdiv>img{
+        width: 100%;
+        height: 100%;
+      }
+      .bottomdiv{
+        flex: 1;
+        background-color: #193e44;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .bottomdiv>h5{
+        color: #fff;
+        margin-bottom: 5px;
+
+      }
+      .bottomdiv>h6{
+        color:#899a97;
+      }

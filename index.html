@@ -4,23 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Imgur: The magic of the Internet</title>
+    <title>Imgur</title>
     <link rel="icon" href="https://s.imgur.com/images/favicon-32x32.png" />
 
     <script
       src="https://kit.fontawesome.com/c76563c0d4.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+    />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/bannerCard.css" />
+    <link rel="stylesheet" href="./styles/postCard.css">
+
   </head>
   <body>
     <div class="Container">
-      <!-- Navbar -->
+      <!-- NAVBAR -->
       <div id="navbar-container"></div>
-      <!-- Banner -->
+      <!-- BANNER -->
+      <div class="banner">
+        <div class="title">
+          There are more planes in the ocean than submarines in the sky.
+        </div>
+        <div class="tag">
+          <div class="tag-name-container">
+            <div>EXPLORE TAGS</div>
+            <div>MORE TAGS+</div>
+          </div>
+
+          <!-- TAG CARD -->
+        </div>
+        <div id="tag-card">
+          <div class="firstTag">
+            <div class="topdiv">
+              <img
+                src="https://i.imgur.com/4LBx79U.jpg?maxwidth=800&shape=thumb&fidelity=high"
+                alt=""
+              />
+            </div>
+            <div class="bottomdiv">
+              <h5>IronGif</h5>
+              <h6>FEATURED . 346 Posts</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="post-container">
+        
+        
+        </div>
+      </div>
     </div>
   </body>
 </html>
+<script src="./scripts/bannerCard.js"></script>
+<script src="./scripts/postCard.js"></script>
 <script type="module">
   import navbar from "./components/navbar.js";
   document.querySelector("#navbar-container").innerHTML = navbar();
