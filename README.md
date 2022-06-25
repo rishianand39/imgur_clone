@@ -38,12 +38,9 @@ Install my-project with npm
 
 ## Screenshots
 
-![Screenshot from 2022-06-25 20-30-24](https://user-images.githubusercontent.com/97423069/175779499-9011f9e2-34d9-442d-b57f-5c9f96a829be.png)
-
 ![Screenshot from 2022-06-25 20-30-11](https://user-images.githubusercontent.com/97423069/175779325-cf219316-c4bb-473a-bf43-f62785b21d0e.png)
 
-
-
+![Screenshot from 2022-06-25 20-30-24](https://user-images.githubusercontent.com/97423069/175779499-9011f9e2-34d9-442d-b57f-5c9f96a829be.png)
 
 
 
