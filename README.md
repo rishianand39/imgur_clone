@@ -47,7 +47,7 @@ Install my-project with npm
 
 ## Tech Stack
 
-**Client:** Html, Css, Javascript,
+**Client:** Html, Css, Javascript, Imgur Api
 
 
 
